@@ -46,6 +46,18 @@ class KulinerController extends GetxController {
     }
   }
 
+  // 🔴 Hapus item berdasarkan index
+  void hapusItem(int index) {
+    if (index >= 0 && index < keranjang.length) {
+      keranjang.removeAt(index);
+    }
+  }
+
+  // 🔴 Hapus semua item di keranjang
+  void hapusSemua() {
+    keranjang.clear();
+  }
+
   // Hitung total
   int get totalHarga =>
       keranjang.fold(0, (sum, item) => sum + item.total);

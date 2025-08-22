@@ -1,22 +1,19 @@
-class PostModel {
-  final int id;
+class AlbumModel {
   final int userId;
+  final int id;
   final String title;
-  final String body;
 
-  PostModel({
+  AlbumModel({
     required this.id,
     required this.userId,
     required this.title,
-    required this.body,
   });
 
-  factory PostModel.fromJson(Map<String, dynamic> json) {
-    return PostModel(
+  factory AlbumModel.fromJson(Map<String, dynamic> json) {
+    return AlbumModel(
       id: json['id'],
       userId: json['userId'],
       title: json['title'],
-      body: json['body'],
     );
   }
 }

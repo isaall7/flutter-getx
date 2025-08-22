@@ -31,7 +31,7 @@ class PostDetailView extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             Text(
-              "User ID: ${post.UserId}",
+              "User ID: ${post.userId}",
               style: const TextStyle(color: Colors.grey),
             ),
           ],

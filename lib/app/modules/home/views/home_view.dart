@@ -30,6 +30,12 @@ class HomeView extends GetView<HomeController> {
       "route": "/post",
       "color": Colors.purple,
     },
+    {
+      "title": "Album",
+      "icon": Icons.album,
+      "route": "/album",
+      "color": Colors.amber,
+    },
   ];
 
   @override

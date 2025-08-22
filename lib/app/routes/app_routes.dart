@@ -8,6 +8,7 @@ abstract class Routes {
   static const FORMULIR = _Paths.FORMULIR;
   static const KULINER = _Paths.KULINER;
   static const POST = _Paths.POST;
+  static const ALBUM = _Paths.ALBUM;
 }
 
 abstract class _Paths {
@@ -17,4 +18,5 @@ abstract class _Paths {
   static const FORMULIR = '/formulir';
   static const KULINER = '/kuliner';
   static const POST = '/post';
+  static const ALBUM = '/album';
 }
